@@ -12,6 +12,6 @@ Our method needs the inputs in 3 different excel sheet table. The first table sh
 
 According to that table, teh second row course and 11th row course have some selection. SEcond row course's prefered classroom id is 1, preferedn day is 0 which means there is no day selection, prefered session is zero means there is no session selection. That means we wanted to assign that course in classroom 1, but we have no any other selection. If algorithm assign that course on that classroom it gains 0.9 points per student who registered that course. For 11th row course,it prefered to be in clasroom4, it prefered to be in 3th day which means Wednesday, adn it preferend to be in session1. That the effect of this selection is 0.5. 
 
-In following figure, you can find table2 and table3 simultaneously. 
+In following figure, you can find table2 and table3 simultaneously. Table2 is for sessions for each day adn their penalty values per student if we assign any course at certain session. In given table, we do not prefer to assign a course at the frist and last session. The first sessions peanly is 1 but last sessions penalty is 0.5 per student. Third table is for classrooms and their capacities. 
 
 ![Sample image](Output/classhours.jpg?raw=true "Title")
