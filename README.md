@@ -31,7 +31,10 @@ We should reach those 3 objections.
 * We should avoid to assign a course on unwanted time 
 * We shoudl assign course on a classroom as big as possible.
 
-If we suppose our problem as minimization problem, the first objection should be negative, second objection should be positive and third one is again negative.
-
+If we suppose our problem as minimization problem, the first objection should be negative, second objection should be positive and third one is again negative. Here is out fitness function.
 
 ![Sample image](Output/fitness.jpg?raw=true "Title")
+
+## Heuristic
+
+
