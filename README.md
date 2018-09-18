@@ -16,6 +16,10 @@ In following figure, you can find table2 and table3 simultaneously. Table2 is fo
 
 ![Sample image](Output/classhours.jpg?raw=true "Title")
 
-## Symbols and Theri meanings.
+## Symbols and Meanings.
 
 ![Sample image](Output/variables.jpg?raw=true "Title")
+
+## Constraints
+
+![Sample image](Output/Constraints.jpg?raw=true "Title")
