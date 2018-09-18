@@ -27,9 +27,10 @@ In following figure, you can find table2 and table3 simultaneously. Table2 is fo
 ## Fitness Function
 
 We should reach those 3 objections.
-•	All course must be on the prefered day,session and hours as highly as possible 
-•	We should avoid to assign a course on unwanted time 
-•	We shoudl assign course on a classroom as big as possible. 
+* All course must be on the prefered day,session and hours as highly as possible 
+* We should avoid to assign a course on unwanted time 
+* We shoudl assign course on a classroom as big as possible.
+
 If we suppose our problem as minimization problem, the first objection should be negative, second objection should be positive and third one is again negative.
 
 
