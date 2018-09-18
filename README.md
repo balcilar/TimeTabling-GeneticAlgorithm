@@ -15,3 +15,7 @@ According to that table, teh second row course and 11th row course have some sel
 In following figure, you can find table2 and table3 simultaneously. Table2 is for sessions for each day adn their penalty values per student if we assign any course at certain session. In given table, we do not prefer to assign a course at the frist and last session. The first sessions peanly is 1 but last sessions penalty is 0.5 per student. Third table is for classrooms and their capacities. 
 
 ![Sample image](Output/classhours.jpg?raw=true "Title")
+
+## Symbols and Theri meanings.
+
+![Sample image](Output/variables.jpg?raw=true "Title")
