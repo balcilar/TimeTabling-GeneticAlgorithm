@@ -10,5 +10,5 @@ Our method needs the inputs in 3 different excel sheet table. The first table sh
 
 ![Sample image](Output/courses.jpg?raw=true "Title")
 
+According to that table, teh second row course and 11th row course have some selection. SEcond row course's prefered classroom id is 1, preferedn day is 0 which means there is no day selection, prefered session is zero means there is no session selection. That means we wanted to assign that course in classroom 1, but we have no any other selection. If algorithm assign that course on that classroom it gains 0.9 points per student who registered that course. For 11th row course,it prefered to be in clasroom4, it prefered to be in 3th day which means Wednesday, adn it preferend to be in session1. That the effect of this selection is 0.5. 
 
-Ders programı oluşturulacak okul, bölüm yada fakültenin verileri excel dosyasından okunmaktadır. Bu bilgiler 3 tablo halinde excel dosyasından okunmuştur. 1.tabloda Sınıf, Derskodu, ders saati, dersi veren öğretim üyesi, dersi alan öğrenci sayısı zorunlu alanlardır. Buna ek olarak eğer bu ders için bir tercih varsa, atanması istenilen derslik, gün, saat ve bu atamanın ağırlığını bildiren [0-1] aralığındaki ağırlık belirtilmelidir. Aşağıda örnek okunan tablo1 den bir kaç satır örnek görünmektedir.
