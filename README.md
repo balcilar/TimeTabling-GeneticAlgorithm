@@ -1,3 +1,3 @@
-# Adaptive neuro fuzzy inference system from scratch
+# A genetic Algorithm Solution for Weekly Course Timetabling Problem
 
-Adaptive neuro fuzzy inference system from scratch
+A genetic Algorithm Solution for Weekly Course Timetabling Problem
