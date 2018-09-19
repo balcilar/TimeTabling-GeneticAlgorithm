@@ -52,3 +52,9 @@ Our genetic Algorithm consist of choromose which is equal to number of courses t
 
 ![Sample image](Output/chromosome.jpg?raw=true "Title")
 
+According to above chromosone, lets suppose for first course we have 400 different pssibilities to assign. Since the chromosone value is 0.452335503, we need to select 400x0.452335503=180,98≈181th possibility. We apply that rule for each chromosone step by step to the end. We used 500 for population size, uniform random initial population creation, %5 elitism rate, 200 maximum iteration. We used hybrid search by patternsearch.
+
+
+
+
+
