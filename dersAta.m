@@ -1,4 +1,7 @@
 function [Atama DersAtanabilir sonuc]=dersAta(ders,derssaat,dersmevcut,secme,Atama,DersAtanabilir,Cakisma,Derslik)
+%% written by Muhammet Balcilar, France
+% All rights reserved
+
 sonuc=1;
 Gunsaat=size(Atama,1)/5;
 Toplam=Atama(1:end-derssaat+1,:);
