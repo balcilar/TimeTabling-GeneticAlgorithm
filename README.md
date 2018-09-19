@@ -1,4 +1,4 @@
-# A genetic Algorithm Solution for Weekly Course Timetabling Problem
+# A Genetic Algorithm Solution for Weekly Course Timetabling Problem
 
 Genetic Algirthms are the method for finding enough good solutions of the problems which cannot be solved by standard method named NP-Hard problems. Although it does not guaranty the best solution, we can find relatively enough good solutions on most engineering problems within that method [1]. 
 
@@ -37,4 +37,18 @@ If we suppose our problem as minimization problem, the first objection should be
 
 ## Heuristic
 
+We need an heuristic assignment algorithm to assign every courses with meet all constraints. In that project we implemented an heuristic algorithm which calculate the possible assignment for each course with meeting all constraints. Genetic algorithm is for selecting in which possible assignment has to be selected. Our heristic steps are shown below steps.
+
+* Take next course in course table.
+* List all possible day, session classroom for that course which meets the constraints.
+* If there is no possibility than make the fitness value as positive infinite value and break the loop.
+* In that list, use the certain chromosene of genetic algorithm which is in range of [0 1]. If gene is 0 means select the first possibility, if gene is 1 means select the last possibility. the other selections are linearly distribute in range of [0 1].
+* Assign that course in the selection possibility by Genetic algorithm.
+* If tall course are assigned, than calculate the total fitness value and return , unless go to step1.
+
+## Genetic Algorithm
+
+Our genetic Algorithm consist of choromose which is equal to number of courses to be scheduled. For instance in our example case, there are 49 number of course, So our gene has 49 chromose too. Here is a sample of one chromosone.
+
+![Sample image](Output/chromosome.jpg?raw=true "Title")
 
