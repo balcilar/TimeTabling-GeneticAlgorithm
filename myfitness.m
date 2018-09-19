@@ -1,4 +1,6 @@
 function [f Atama]=myfitness(x,Cakisma,Derslik,Gunsaat,DersSaat,DersMevcut,Ceza,tercih)
+%% written by Muhammet Balcilar, France
+% All rights reserved
 f=0;
 % nders=length(x)/2;
 % p=x(1:nders);
