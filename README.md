@@ -62,6 +62,7 @@ In our test on provided problem case, we reach -9899.2 fitness value. Accoring t
 
 ## References
 [1] Reeves, Colin. "Genetic algorithms." Handbook of metaheuristics. Springer US, 2003. 55-82.
+
 [2] Erben, R.W. & Kepler, J., 1995. A genetic Algorithm Solving a Weekly Course Timetabling Problem, Proc. Of the First Int. Conf. on the Practice and Theory of Automated Timetabling (ICPTAT), pp. 21-32, Napier University, Edinburgh.
 
 
