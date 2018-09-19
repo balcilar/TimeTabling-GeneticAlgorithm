@@ -1,4 +1,6 @@
 function scores = ders_programi_fitness(x,Cakisma,Derslik,Gunsaat,DersSaat,DersMevcut,Ceza,tercih)
+%% written by Muhammet Balcilar, France
+% All rights reserved
 
 scores = zeros(size(x,1),1);
 for j = 1:size(x,1)     
